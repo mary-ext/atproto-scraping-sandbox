@@ -20,6 +20,9 @@
 		"cursor": "2024-05-03T21:10:04.661Z"
 	},
 	"pdses": {
+		"https://465789.xyz/": {
+			"version": "0.4.12"
+		},
 		"https://abc.com/": {
 			"errorAt": 1714878929390
 		},
@@ -31,6 +34,9 @@
 		},
 		"https://abyss.computer/": {
 			"errorAt": 1714878929390
+		},
+		"https://afternooncurry.com/": {
+			"version": "0.4.12"
 		},
 		"https://ag.pet/": {
 			"errorAt": 1714878929390
@@ -173,6 +179,9 @@
 		"https://bluesky.p82.it/": {
 			"errorAt": 1714878929390
 		},
+		"https://bluesky.rp-taki.com/": {
+			"version": "0.4.7"
+		},
 		"https://bluesky.schmueth.de/": {
 			"errorAt": 1714878929390
 		},
@@ -223,6 +232,9 @@
 		},
 		"https://bs.undreaming.org/": {
 			"errorAt": 1714878929390
+		},
+		"https://bs.vrccl.life/": {
+			"version": "0.4.12"
 		},
 		"https://bs1.tuusulan.com/": {
 			"errorAt": 1714878929390
@@ -335,6 +347,9 @@
 		"https://bsky.ponscele.fr/": {
 			"errorAt": 1714878929390
 		},
+		"https://bsky.powerg.love/": {
+			"version": "0.4.12"
+		},
 		"https://bsky.primeapps.net/": {
 			"version": "0.4.12"
 		},
@@ -349,6 +364,9 @@
 		},
 		"https://bsky.shigepon.net/": {
 			"errorAt": 1714878929390
+		},
+		"https://bsky.social/": {
+			"version": "git-f1e804e"
 		},
 		"https://bsky.softwhere.ca/": {
 			"errorAt": 1714878929390
@@ -371,6 +389,9 @@
 		"https://bsky.zenti-im-zug.de/": {
 			"errorAt": 1714878929390
 		},
+		"https://bsky.zoeyvid.de/": {
+			"version": "0.4.12"
+		},
 		"https://bskysandbox.edavis.dev/": {
 			"errorAt": 1714878929390
 		},
@@ -380,6 +401,9 @@
 		"https://bstest.8bitcanvas.com/": {
 			"errorAt": 1714878929390
 		},
+		"https://bum.ninja/": {
+			"version": "0.4.12"
+		},
 		"https://casadeladra.ddnss.de/": {
 			"errorAt": 1714878929390
 		},
@@ -388,6 +412,9 @@
 		},
 		"https://cjdd.me/": {
 			"errorAt": 1714878929390
+		},
+		"https://corgi.dance/": {
+			"version": "0.4.12"
 		},
 		"https://creaton.social/": {
 			"errorAt": 1714878929390
@@ -401,11 +428,17 @@
 		"https://dawn.atproto.zigler.ai/": {
 			"version": "0.4.12"
 		},
+		"https://derpzilla.net/": {
+			"version": "0.4.0-beta.7"
+		},
 		"https://dev.pds.ruthenic.com/": {
 			"errorAt": 1714878929390
 		},
 		"https://didconnect.tech/": {
 			"errorAt": 1714878929390
+		},
+		"https://disbursement.center/": {
+			"version": "0.4.12"
 		},
 		"https://dopsky.social/": {
 			"errorAt": 1714878929390
@@ -437,6 +470,9 @@
 		"https://fed.brid.gy/": {},
 		"https://fraudulent.link/": {
 			"errorAt": 1714878929390
+		},
+		"https://friendlypds.cloud/": {
+			"version": "0.4.12"
 		},
 		"https://furartist.art/": {
 			"errorAt": 1714878929390
@@ -474,6 +510,9 @@
 		"https://home.cyberveins.eu/": {
 			"errorAt": 1714878929390
 		},
+		"https://hooray.social/": {
+			"version": "0.4.12"
+		},
 		"https://hosseinnasiri.ir/": {
 			"errorAt": 1714878929390
 		},
@@ -498,6 +537,9 @@
 		"https://is.lalafell.fun/": {
 			"version": "0.4.12"
 		},
+		"https://italiansky.mooo.com/": {
+			"version": "0.4.12"
+		},
 		"https://jobo.eu.org/": {
 			"errorAt": 1714878929390
 		},
@@ -513,7 +555,13 @@
 		"https://kevin.fur.vip/": {
 			"errorAt": 1714878929390
 		},
+		"https://kiichigo.cloud/": {
+			"version": "0.4.12"
+		},
 		"https://labo.moe/": {
+			"version": "0.4.12"
+		},
+		"https://libertywave.app/": {
 			"version": "0.4.12"
 		},
 		"https://louis-c-novel.com/": {
@@ -579,8 +627,14 @@
 		"https://otro.from-tw.shop/": {
 			"errorAt": 1714878929390
 		},
+		"https://oyster.us-east.host.bsky.network/": {
+			"version": "git-b400fae"
+		},
 		"https://pds-dev.upcraft.dev/": {
 			"errorAt": 1714878929390
+		},
+		"https://pds.anymanystreams.cc/": {
+			"version": "0.4.12"
 		},
 		"https://pds.apppel.nl/": {
 			"errorAt": 1714878929390
@@ -602,6 +656,9 @@
 		},
 		"https://pds.dev.retr0.id/": {
 			"errorAt": 1714878929390
+		},
+		"https://pds.dholms.xyz/": {
+			"version": "0.4.12"
 		},
 		"https://pds.entreco.org/": {
 			"errorAt": 1714878929390
@@ -660,6 +717,9 @@
 		"https://pds.twixy.app/": {
 			"errorAt": 1714878929390
 		},
+		"https://pds.ubanis.mydns.jp/": {
+			"version": "0.4.12"
+		},
 		"https://pds.vriska.dev/": {
 			"version": "0.4.12"
 		},
@@ -675,7 +735,13 @@
 		"https://qcrg.space/": {
 			"errorAt": 1714878929390
 		},
+		"https://rainbowgirl.moe/": {
+			"version": "0.4.12"
+		},
 		"https://reallyme.social/": {
+			"version": "0.4.12"
+		},
+		"https://rebroad.com/": {
 			"version": "0.4.12"
 		},
 		"https://rent-a-shitstorm.eu/": {
@@ -683,6 +749,9 @@
 		},
 		"https://rp-taki.com/": {
 			"errorAt": 1714878929390
+		},
+		"https://sandbox.bsky.day/": {
+			"version": "0.4.12"
 		},
 		"https://sandbox.rows.io/": {
 			"version": "0.4.0-beta.7"
@@ -700,6 +769,9 @@
 			"version": "0.4.12"
 		},
 		"https://sky.hideside.de/": {
+			"version": "0.4.12"
+		},
+		"https://sky.lalafell.org/": {
 			"version": "0.4.12"
 		},
 		"https://sky.manikineko.nl/": {
@@ -785,6 +857,9 @@
 		},
 		"https://utatane.blue/": {
 			"errorAt": 1714878929390
+		},
+		"https://veryun.cool/": {
+			"version": "0.4.12"
 		},
 		"https://vivoliva.de/": {
 			"errorAt": 1714878929390

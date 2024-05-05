@@ -163,7 +163,8 @@ const labelerResults = await Promise.all(
 
 Last updated: {{time}}[^1]
 
-Found by enumerating plc.bsky-sandbox.dev and bgs.bsky-sandbox.dev.
+Found by enumerating plc.bsky-sandbox.dev and bgs.bsky-sandbox.dev, some
+instances might not be part of sandbox net.
 
 ## Personal data servers
 

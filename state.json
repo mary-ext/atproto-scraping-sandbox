@@ -631,7 +631,8 @@
 			"errorAt": 1714878929390
 		},
 		"https://pds.nonsm.art/": {
-			"version": "0.4.12"
+			"version": "0.4.12",
+			"errorAt": 1714956852968
 		},
 		"https://pds.octelly.lol/": {
 			"errorAt": 1714878929390
@@ -685,7 +686,8 @@
 			"errorAt": 1714878929390
 		},
 		"https://sandbox.rows.io/": {
-			"version": "0.4.0-beta.7"
+			"version": "0.4.0-beta.7",
+			"errorAt": 1714956852968
 		},
 		"https://sandbox.whyr.us/": {
 			"errorAt": 1714878929390
@@ -700,7 +702,8 @@
 			"version": "0.4.12"
 		},
 		"https://sky.hideside.de/": {
-			"version": "0.4.12"
+			"version": "0.4.12",
+			"errorAt": 1714956852968
 		},
 		"https://sky.manikineko.nl/": {
 			"errorAt": 1714878929390

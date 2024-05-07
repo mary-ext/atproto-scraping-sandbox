@@ -1,6 +1,6 @@
 # Scraped AT Protocol sandbox instances
 
-Last updated: 2024-05-06T01:13:15.853Z[^1]
+Last updated: 2024-05-07T01:11:57.702Z[^1]
 
 Found by enumerating plc.bsky-sandbox.dev and bgs.bsky-sandbox.dev, some
 instances might not be part of sandbox net.
@@ -41,6 +41,7 @@ instances might not be part of sandbox net.
 | pds.y-force.info | Yes | 0.4.12 |
 | reallyme.social | No | 0.4.12 |
 | rent-a-shitstorm.eu | No | 0.4.12 |
+| sardine.pics | No | 0.4.12 |
 | siriussocial.de | No | 0.4.12 |
 | sns.ham-san.net | No | 0.4.12 |
 | turboshitpost.ing | No | 0.4.12 |

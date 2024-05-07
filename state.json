@@ -17,7 +17,7 @@
 		}
 	},
 	"plc": {
-		"cursor": "2024-05-03T21:10:04.661Z"
+		"cursor": "2024-05-06T22:56:15.710Z"
 	},
 	"pdses": {
 		"https://abc.com/": {
@@ -693,7 +693,7 @@
 			"errorAt": 1714878929390
 		},
 		"https://sardine.pics/": {
-			"errorAt": 1714878929390
+			"version": "0.4.12"
 		},
 		"https://sbx.bsky.day/": {
 			"errorAt": 1714878929390

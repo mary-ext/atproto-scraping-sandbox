@@ -17,7 +17,7 @@
 		}
 	},
 	"plc": {
-		"cursor": "2024-05-06T22:56:15.710Z"
+		"cursor": "2024-05-08T16:46:05.467Z"
 	},
 	"pdses": {
 		"https://abc.com/": {
@@ -359,6 +359,9 @@
 		"https://bsky.studiofreesia.com/": {
 			"errorAt": 1714878929390
 		},
+		"https://bsky.tochu-cha.mydns.jp/": {
+			"errorAt": 1715216014957
+		},
 		"https://bsky.trpger.us/": {
 			"errorAt": 1714878929390
 		},
@@ -520,7 +523,7 @@
 			"errorAt": 1714878929390
 		},
 		"https://m.cliq.buzz/": {
-			"errorAt": 1714878929390
+			"version": "0.4.12"
 		},
 		"https://maddesjg.eu/": {
 			"errorAt": 1714878929390
@@ -656,7 +659,7 @@
 			"errorAt": 1714878929390
 		},
 		"https://pds.timburga.social/": {
-			"errorAt": 1714878929390
+			"version": "0.4.12"
 		},
 		"https://pds.twixy.app/": {
 			"errorAt": 1714878929390
@@ -767,6 +770,9 @@
 		},
 		"https://this-is-epic.space/": {
 			"errorAt": 1714878929390
+		},
+		"https://tochu-cha.mydns.jp/": {
+			"errorAt": 1715216014957
 		},
 		"https://trapobezieher.de/": {
 			"errorAt": 1714878929390

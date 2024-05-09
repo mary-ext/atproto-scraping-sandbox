@@ -658,16 +658,10 @@
 		"https://pds.terrenly.com/": {
 			"errorAt": 1714878929390
 		},
-		"https://pds.timburga.social/": {
-			"version": "0.4.12"
-		},
 		"https://pds.twixy.app/": {
 			"errorAt": 1714878929390
 		},
 		"https://pds.vriska.dev/": {
-			"version": "0.4.12"
-		},
-		"https://pds.y-force.info/": {
 			"version": "0.4.12"
 		},
 		"https://pdshosting.xyz/": {

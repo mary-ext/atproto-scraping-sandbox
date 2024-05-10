@@ -523,7 +523,8 @@
 			"errorAt": 1714878929390
 		},
 		"https://m.cliq.buzz/": {
-			"version": "0.4.12"
+			"version": "0.4.12",
+			"errorAt": 1715302411228
 		},
 		"https://maddesjg.eu/": {
 			"errorAt": 1714878929390

@@ -1,6 +1,6 @@
 # Scraped AT Protocol sandbox instances
 
-Last updated: 2024-05-10T01:11:37.112Z[^1]
+Last updated: 2024-05-11T01:11:50.138Z[^1]
 
 Found by enumerating plc.bsky-sandbox.dev and bgs.bsky-sandbox.dev, some
 instances might not be part of sandbox net.
@@ -10,41 +10,41 @@ instances might not be part of sandbox net.
 <!-- pds-start -->
 | PDS | Open? | Version |
 | --- | --- | --- |
-| aozora.yockow.jp | No | 0.4.12 |
-| atptest.lep.wtf | No | 0.4.12 |
-| b.schroedingerscat.org | No | 0.4.12 |
-| blacksky.app | No | 0.4.12 |
-| blsy.ddaodan.cn | No | 0.4.12 |
-| blue-archive.social | Yes | 0.4.12 |
-| bluesky.animint.fr | No | 0.4.12 |
-| bluesky.euer.tv | No | 0.4.12 |
-| bluesky.kosti.dev | No | 0.4.12 |
-| bluesky.migennes.org | No | 0.4.12 |
-| blugrisbi.es | No | 0.4.12 |
-| bs.jefferyho.cc | No | 0.4.12 |
-| bs.miichelle.moe | No | 0.4.12 |
+| aozora.yockow.jp | No | 0.4.21 |
+| atptest.lep.wtf | No | 0.4.21 |
+| b.schroedingerscat.org | No | 0.4.21 |
+| blacksky.app | No | 0.4.21 |
+| blsy.ddaodan.cn | No | 0.4.21 |
+| blue-archive.social | Yes | 0.4.21 |
+| bluesky.animint.fr | No | 0.4.21 |
+| bluesky.euer.tv | No | 0.4.21 |
+| bluesky.kosti.dev | No | 0.4.21 |
+| bluesky.migennes.org | No | 0.4.21 |
+| blugrisbi.es | No | 0.4.21 |
+| bs.jefferyho.cc | No | 0.4.21 |
+| bs.miichelle.moe | No | 0.4.21 |
 | bsky.akurosia.de | No | 0.4.0-beta.7 |
-| bsky.deiru.online | No | 0.4.12 |
-| bsky.primeapps.net | No | 0.4.12 |
-| cultured.black | No | 0.4.12 |
-| dawn.atproto.zigler.ai | No | 0.4.12 |
+| bsky.deiru.online | No | 0.4.21 |
+| bsky.primeapps.net | No | 0.4.21 |
+| cultured.black | No | 0.4.21 |
+| dawn.atproto.zigler.ai | No | 0.4.21 |
 | ds.povario.com | No | 0.4.12 |
 | fed.brid.gy | Yes | ??? |
-| is.lalafell.fun | No | 0.4.12 |
-| joost.social | No | 0.4.12 |
-| ketamine.dog | No | 0.4.12 |
-| labo.moe | No | 0.4.12 |
-| matthews-kennington.com | No | 0.4.12 |
-| montpeyroux.social | No | 0.4.12 |
-| pds.jaz.sh | No | 0.4.12 |
-| pds.vriska.dev | No | 0.4.12 |
-| reallyme.social | No | 0.4.12 |
-| rent-a-shitstorm.eu | No | 0.4.12 |
-| sardine.pics | No | 0.4.12 |
-| siriussocial.de | No | 0.4.12 |
-| sns.ham-san.net | No | 0.4.12 |
-| turboshitpost.ing | No | 0.4.12 |
-| x-mweya.duckdns.org | No | 0.4.12 |
+| is.lalafell.fun | No | 0.4.21 |
+| joost.social | No | 0.4.21 |
+| ketamine.dog | No | 0.4.21 |
+| labo.moe | No | 0.4.21 |
+| matthews-kennington.com | No | 0.4.21 |
+| montpeyroux.social | No | 0.4.21 |
+| pds.jaz.sh | No | 0.4.21 |
+| pds.vriska.dev | No | 0.4.21 |
+| reallyme.social | No | 0.4.21 |
+| rent-a-shitstorm.eu | No | 0.4.21 |
+| sardine.pics | No | 0.4.21 |
+| siriussocial.de | No | 0.4.21 |
+| sns.ham-san.net | No | 0.4.21 |
+| turboshitpost.ing | No | 0.4.21 |
+| x-mweya.duckdns.org | No | 0.4.21 |
 <!-- pds-end -->
 
 ## Labelers

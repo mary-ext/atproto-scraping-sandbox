@@ -1,6 +1,6 @@
 # Scraped AT Protocol sandbox instances
 
-Last updated: 2024-05-13T01:14:19.831Z[^1]
+Last updated: 2024-05-14T01:13:14.080Z[^1]
 
 Found by enumerating plc.bsky-sandbox.dev and bgs.bsky-sandbox.dev, some
 instances might not be part of sandbox net.
@@ -16,7 +16,6 @@ instances might not be part of sandbox net.
 | blacksky.app | No | 0.4.21 |
 | blsy.ddaodan.cn | No | 0.4.21 |
 | blue-archive.social | Yes | 0.4.21 |
-| bluesky.animint.fr | No | 0.4.21 |
 | bluesky.euer.tv | No | 0.4.21 |
 | bluesky.kosti.dev | No | 0.4.21 |
 | bluesky.migennes.org | No | 0.4.21 |

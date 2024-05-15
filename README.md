@@ -1,6 +1,6 @@
 # Scraped AT Protocol sandbox instances
 
-Last updated: 2024-05-14T01:13:14.080Z[^1]
+Last updated: 2024-05-15T00:56:35.491Z[^1]
 
 Found by enumerating plc.bsky-sandbox.dev and bgs.bsky-sandbox.dev, some
 instances might not be part of sandbox net.
@@ -32,7 +32,6 @@ instances might not be part of sandbox net.
 | is.lalafell.fun | No | 0.4.21 |
 | joost.social | No | 0.4.21 |
 | ketamine.dog | No | 0.4.21 |
-| labo.moe | No | 0.4.21 |
 | matthews-kennington.com | No | 0.4.21 |
 | montpeyroux.social | No | 0.4.21 |
 | pds.jaz.sh | No | 0.4.21 |
@@ -42,8 +41,6 @@ instances might not be part of sandbox net.
 | sardine.pics | No | 0.4.21 |
 | siriussocial.de | No | 0.4.21 |
 | sns.ham-san.net | No | 0.4.21 |
-| turboshitpost.ing | No | 0.4.21 |
-| x-mweya.duckdns.org | No | 0.4.21 |
 <!-- pds-end -->
 
 ## Labelers

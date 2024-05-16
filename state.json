@@ -79,8 +79,7 @@
 			"version": "0.4.21"
 		},
 		"https://labo.moe/": {
-			"version": "0.4.21",
-			"errorAt": 1715734459843
+			"version": "0.4.21"
 		},
 		"https://m.cliq.buzz/": {
 			"version": "0.4.12",
@@ -117,15 +116,13 @@
 			"errorAt": 1715216014957
 		},
 		"https://turboshitpost.ing/": {
-			"version": "0.4.21",
-			"errorAt": 1715734459843
+			"version": "0.4.21"
 		},
 		"https://wave.stg.waverly.social/": {
 			"errorAt": 1715734459843
 		},
 		"https://x-mweya.duckdns.org/": {
-			"version": "0.4.21",
-			"errorAt": 1715734459843
+			"version": "0.4.21"
 		}
 	},
 	"labelers": {}

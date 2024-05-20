@@ -4,7 +4,7 @@
 		"didWebs": {}
 	},
 	"plc": {
-		"cursor": "2024-05-10T04:51:56.337Z"
+		"cursor": "2024-05-19T12:57:01.307Z"
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
@@ -104,6 +104,9 @@
 		},
 		"https://sns.ham-san.net/": {
 			"version": "0.4.21"
+		},
+		"https://stg.waverly.social/": {
+			"errorAt": 1716166498538
 		},
 		"https://turboshitpost.ing/": {
 			"version": "0.4.21"

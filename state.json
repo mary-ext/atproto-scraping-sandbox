@@ -8,110 +8,108 @@
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://atptest.lep.wtf/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://b.schroedingerscat.org/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://blacksky.app/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://blsy.ddaodan.cn/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://blue-archive.social/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://bluesky.euer.tv/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://bluesky.kosti.dev/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://bluesky.migennes.org/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://blugrisbi.es/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://bs.jefferyho.cc/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://bs.miichelle.moe/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://bsky.akurosia.de/": {
 			"version": "0.4.0-beta.7"
 		},
 		"https://bsky.deiru.online/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://bsky.primeapps.net/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://cultured.black/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://dawn.atproto.zigler.ai/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://ds.povario.com/": {
 			"version": "0.4.12"
 		},
 		"https://fed.brid.gy/": {},
 		"https://is.lalafell.fun/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://joost.social/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://ketamine.dog/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://labo.moe/": {
 			"version": "0.4.23"
 		},
 		"https://matthews-kennington.com/": {
-			"version": "0.4.23"
+			"version": "0.4.25"
 		},
 		"https://montpeyroux.social/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://pds.jaz.sh/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://pds.vriska.dev/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://reallyme.social/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://rent-a-shitstorm.eu/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://sardine.pics/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://siriussocial.de/": {
-			"version": "0.4.23"
+			"version": "0.4.23",
+			"errorAt": 1716512091590
 		},
 		"https://sns.ham-san.net/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		},
 		"https://stg.waverly.social/": {
 			"errorAt": 1716166498538
 		},
 		"https://turboshitpost.ing/": {
-			"version": "0.4.23"
-		},
-		"https://wave.stg.waverly.social/": {
-			"errorAt": 1715734459843
+			"version": "0.4.27"
 		},
 		"https://x-mweya.duckdns.org/": {
-			"version": "0.4.23"
+			"version": "0.4.27"
 		}
 	},
 	"labelers": {}

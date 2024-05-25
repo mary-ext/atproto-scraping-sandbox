@@ -1,10 +1,10 @@
 {
 	"firehose": {
-		"cursor": "573",
+		"cursor": "574",
 		"didWebs": {}
 	},
 	"plc": {
-		"cursor": "2024-05-20T22:04:10.973Z"
+		"cursor": "2024-05-24T12:24:08.255Z"
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
@@ -52,6 +52,9 @@
 		"https://bsky.primeapps.net/": {
 			"version": "0.4.27"
 		},
+		"https://bsky.tochu-cha.mydns.jp/": {
+			"errorAt": 1716598413336
+		},
 		"https://cultured.black/": {
 			"version": "0.4.27"
 		},
@@ -75,7 +78,7 @@
 			"version": "0.4.23"
 		},
 		"https://matthews-kennington.com/": {
-			"version": "0.4.25"
+			"version": "0.4.27"
 		},
 		"https://montpeyroux.social/": {
 			"version": "0.4.27"

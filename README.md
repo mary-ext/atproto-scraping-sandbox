@@ -1,6 +1,6 @@
 # Scraped AT Protocol sandbox instances
 
-Last updated: 2024-05-25T00:53:38.401Z[^1]
+Last updated: 2024-05-26T01:01:10.252Z[^1]
 
 Found by enumerating plc.bsky-sandbox.dev and bgs.bsky-sandbox.dev, some
 instances might not be part of sandbox net.
@@ -22,7 +22,6 @@ instances might not be part of sandbox net.
 | blugrisbi.es | No | 0.4.27 |
 | bs.jefferyho.cc | No | 0.4.27 |
 | bs.miichelle.moe | No | 0.4.27 |
-| bsky.akurosia.de | No | 0.4.0-beta.7 |
 | bsky.deiru.online | No | 0.4.27 |
 | bsky.primeapps.net | No | 0.4.27 |
 | cultured.black | No | 0.4.27 |

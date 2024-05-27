@@ -1,10 +1,10 @@
 import { BskyXRPC } from '@mary/bluesky-client';
 import { XRPCError } from '@mary/bluesky-client/xrpc';
 
-import { differenceInDays } from 'date-fns/differenceInDays';
 import * as v from '@badrap/valita';
+import { differenceInDays } from 'date-fns/differenceInDays';
 
-import { serializedState, type InstanceInfo, type LabelerInfo, type SerializedState } from '../src/state';
+import { serializedState, type LabelerInfo, type PDSInfo, type SerializedState } from '../src/state';
 
 import { PromiseQueue } from '../src/utils/pqueue';
 
@@ -63,7 +63,7 @@ const offHealthResponse = v.object({
 });
 
 // Global states
-const pdses = new Map<string, InstanceInfo>(state ? Object.entries(state.pdses) : []);
+const pdses = new Map<string, PDSInfo>(state ? Object.entries(state.pdses) : []);
 const labelers = new Map<string, LabelerInfo>(state ? Object.entries(state.labelers) : []);
 
 const queue = new PromiseQueue();
@@ -107,6 +107,7 @@ const pdsResults = await Promise.all(
 			const version = await getVersion(rpc, obj.version);
 
 			obj.version = version;
+			obj.inviteCodeRequired = meta.inviteCodeRequired;
 			obj.errorAt = undefined;
 
 			console.log(`  ${host}: pass`);
@@ -159,12 +160,12 @@ const labelerResults = await Promise.all(
 	const PDS_RE = /(?<=<!-- pds-start -->)[^]*(?=<!-- pds-end -->)/;
 	const LABELER_RE = /(?<=<!-- labeler-start -->)[^]*(?=<!-- labeler-end -->)/;
 
-	const template = `# Scraped AT Protocol sandbox instances
+	const template = `# Scraped AT Protocol instances
 
 Last updated: {{time}}[^1]
 
-Found by enumerating plc.bsky-sandbox.dev and bgs.bsky-sandbox.dev, some
-instances might not be part of sandbox net.
+Found by enumerating plc.directory and bsky.network, some instances might not be
+part of mainnet.
 
 ## Personal data servers
 

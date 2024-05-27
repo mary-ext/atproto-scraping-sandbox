@@ -8,112 +8,143 @@
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://atptest.lep.wtf/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://b.schroedingerscat.org/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://blacksky.app/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://blsy.ddaodan.cn/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://blue-archive.social/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": false
 		},
 		"https://bluesky.euer.tv/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://bluesky.kosti.dev/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://bluesky.migennes.org/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://blugrisbi.es/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://bs.jefferyho.cc/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://bs.miichelle.moe/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://bsky.akurosia.de/": {
 			"version": "0.4.0-beta.7",
 			"errorAt": 1716685134415
 		},
 		"https://bsky.deiru.online/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://bsky.primeapps.net/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://bsky.tochu-cha.mydns.jp/": {
 			"errorAt": 1716598413336
 		},
 		"https://cultured.black/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://dawn.atproto.zigler.ai/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://ds.povario.com/": {
-			"version": "0.4.12"
+			"version": "0.4.12",
+			"inviteCodeRequired": true
 		},
 		"https://fed.brid.gy/": {},
 		"https://is.lalafell.fun/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://joost.social/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://ketamine.dog/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://labo.moe/": {
-			"version": "0.4.23"
+			"version": "0.4.23",
+			"inviteCodeRequired": true
 		},
 		"https://matthews-kennington.com/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://montpeyroux.social/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://pds.jaz.sh/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://pds.vriska.dev/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://reallyme.social/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://rent-a-shitstorm.eu/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://sardine.pics/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://siriussocial.de/": {
 			"version": "0.4.23",
 			"errorAt": 1716512091590
 		},
 		"https://sns.ham-san.net/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://stg.waverly.social/": {
 			"errorAt": 1716166498538
 		},
 		"https://turboshitpost.ing/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		},
 		"https://x-mweya.duckdns.org/": {
-			"version": "0.4.27"
+			"version": "0.4.27",
+			"inviteCodeRequired": true
 		}
 	},
 	"labelers": {}

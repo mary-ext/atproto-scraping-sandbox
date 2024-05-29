@@ -1,8 +1,10 @@
+import crypto from 'node:crypto';
+
 import { BskyXRPC } from '@mary/bluesky-client';
 
+import * as v from '@badrap/valita';
 import { differenceInDays } from 'date-fns/differenceInDays';
 import * as tld from 'tldts';
-import * as v from '@badrap/valita';
 
 import {
 	serializedState,
@@ -12,11 +14,11 @@ import {
 	type SerializedState,
 } from '../src/state';
 
-import { RELAY_URL, PLC_URL } from '../src/constants';
+import { MAX_FAILURE_DAYS, PLC_URL, RELAY_URL } from '../src/constants';
 import { didDocument, type DidDocument } from '../src/utils/did';
+import { compareString } from '../src/utils/misc';
 import { PromiseQueue } from '../src/utils/pqueue';
 import { LineBreakStream, TextDecoderStream } from '../src/utils/stream';
-import { compareString } from '../src/utils/misc';
 
 const now = Date.now();
 
@@ -52,7 +54,7 @@ let firehoseCursor: string | undefined = state?.firehose.cursor;
 	const limit = 1000;
 	let after: string | undefined = plcCursor;
 
-	console.log(`crawling plc.bsky-sandbox.dev`);
+	console.log(`crawling plc.directory`);
 	console.log(`  starting ${plcCursor || '<root>'}`);
 
 	do {
@@ -74,18 +76,32 @@ let firehoseCursor: string | undefined = state?.firehose.cursor;
 				const labeler = getEndpoint(operation.services.atproto_labeler?.endpoint);
 
 				if (pds) {
-					if (!pdses.has(pds)) {
+					const info = pdses.get(pds);
+
+					if (info === undefined) {
 						console.log(`  found pds: ${pds}`);
 						pdses.set(pds, {});
+					} else if (info.errorAt !== undefined) {
+						// reset `errorAt` if we encounter this PDS
+						console.log(`  found pds: ${pds} (errored)`);
+						info.errorAt = undefined;
 					}
 				}
 
 				if (labeler) {
-					if (!labelers.has(labeler)) {
+					const info = labelers.get(labeler);
+
+					if (info === undefined) {
 						console.log(`  found labeler: ${labeler}`);
 						labelers.set(labeler, { did });
 					} else {
-						labelers.get(labeler)!.did = did;
+						if (info.errorAt !== undefined) {
+							// reset `errorAt` if we encounter this labeler
+							console.log(`  found labeler: ${labeler} (errored)`);
+							info.errorAt = undefined;
+						}
+
+						info.did = did;
 					}
 				}
 			}
@@ -157,7 +173,7 @@ let firehoseCursor: string | undefined = state?.firehose.cursor;
 
 	let cursor: string | undefined = firehoseCursor;
 
-	console.log(`crawling bgs.bsky-sandbox.dev`);
+	console.log(`crawling bsky.network`);
 	console.log(`  starting ${cursor || '<root>'}`);
 
 	do {
@@ -203,43 +219,69 @@ let firehoseCursor: string | undefined = state?.firehose.cursor;
 					const signal = AbortSignal.timeout(15_000);
 					const res = await get(`https://${host}/.well-known/did.json`, signal);
 
-					const json = (await res.json()) as unknown;
-					const doc = didDocument.parse(json, { mode: 'passthrough' });
+					const text = await res.text();
+					const sha256sum = getHash('sha256', text);
 
-					const pds = getPdsEndpoint(doc);
-					const labeler = getLabelerEndpoint(doc);
+					if (obj.hash !== sha256sum) {
+						const json = JSON.parse(text);
+						const doc = didDocument.parse(json, { mode: 'passthrough' });
 
-					console.log(`  ${did}: pass`);
+						const pds = getPdsEndpoint(doc);
+						const labeler = getLabelerEndpoint(doc);
 
-					if (pds && obj.pds !== pds) {
-						if (!pdses.has(pds)) {
-							console.log(`    found pds: ${pds}`);
-							pdses.set(pds, {});
+						console.log(`  ${did}: pass (updated)`);
+
+						if (pds) {
+							const info = pdses.get(pds);
+
+							if (info === undefined) {
+								console.log(`    found pds: ${pds}`);
+								pdses.set(pds, {});
+							} else if (info.errorAt !== undefined) {
+								// reset `errorAt` if we encounter this PDS
+								console.log(`    found pds: ${pds} (errored)`);
+								info.errorAt = undefined;
+							}
 						}
-					}
 
-					if (labeler && obj.labeler !== labeler) {
-						if (!labelers.has(labeler)) {
-							console.log(`    found labeler: ${labeler}`);
-							labelers.set(labeler, { did });
-						} else {
-							labelers.get(labeler)!.did = did;
+						if (labeler) {
+							const info = labelers.get(labeler);
+
+							if (info === undefined) {
+								console.log(`    found labeler: ${labeler}`);
+								labelers.set(labeler, { did });
+							} else {
+								if (info.errorAt !== undefined) {
+									// reset `errorAt` if we encounter this labeler
+									console.log(`    found labeler: ${labeler} (errored)`);
+									info.errorAt = undefined;
+								}
+
+								info.did = did;
+							}
 						}
+
+						obj.hash = sha256sum;
+
+						obj.pds = pds;
+						obj.labeler = labeler;
+					} else {
+						console.log(`  ${did}: pass`);
 					}
 
 					obj.errorAt = undefined;
-					obj.pds = pds;
-					obj.labeler = labeler;
 				} catch (err) {
 					const errorAt = obj.errorAt;
 
 					if (errorAt === undefined) {
 						obj.errorAt = now;
-					} else if (differenceInDays(now, errorAt) > 7) {
+					} else if (differenceInDays(now, errorAt) > MAX_FAILURE_DAYS) {
+						// It's been days without a response, stop tracking.
+
 						didWebs.delete(did);
 					}
 
-					console.log(`  ${did}: fail`);
+					console.log(`  ${did}: fail (${err})`);
 				}
 			});
 		}),
@@ -327,4 +369,11 @@ function getEndpoint(urlStr: string | undefined): string | undefined {
 	}
 
 	return url.href;
+}
+
+function getHash(algo: string, data: string) {
+	const hasher = crypto.createHash(algo);
+	hasher.update(data);
+
+	return hasher.digest('base64url');
 }

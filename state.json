@@ -1,10 +1,10 @@
 {
 	"firehose": {
-		"cursor": "574",
+		"cursor": "575",
 		"didWebs": {}
 	},
 	"plc": {
-		"cursor": "2024-05-24T12:24:08.255Z"
+		"cursor": "2024-05-29T13:55:00.575Z"
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
@@ -68,7 +68,7 @@
 			"inviteCodeRequired": true
 		},
 		"https://bsky.tochu-cha.mydns.jp/": {
-			"errorAt": 1716598413336
+			"errorAt": 1717030514426
 		},
 		"https://cultured.black/": {
 			"version": "0.4.27",
@@ -121,7 +121,8 @@
 		},
 		"https://rent-a-shitstorm.eu/": {
 			"version": "0.4.27",
-			"inviteCodeRequired": true
+			"inviteCodeRequired": true,
+			"errorAt": 1717030514426
 		},
 		"https://sardine.pics/": {
 			"version": "0.4.27",

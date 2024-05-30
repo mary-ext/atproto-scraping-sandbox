@@ -1,6 +1,6 @@
 # Scraped AT Protocol instances
 
-Last updated: 2024-05-29T00:58:13.925Z[^1]
+Last updated: 2024-05-30T00:57:31.645Z[^1]
 
 Found by enumerating plc.directory and bsky.network, some instances might not be
 part of mainnet.
@@ -22,14 +22,14 @@ part of mainnet.
 | ✅ blugrisbi.es | No | 0.4.27 |
 | ✅ bs.jefferyho.cc | No | 0.4.27 |
 | ✅ bs.miichelle.moe | No | 0.4.27 |
-| ❌ bsky.akurosia.de | Yes | 0.4.0-beta.7 |
+| ❌ bsky.akurosia.de | No | 0.4.0-beta.7 |
 | ✅ bsky.deiru.online | No | 0.4.27 |
 | ✅ bsky.primeapps.net | No | 0.4.27 |
-| ❌ bsky.tochu-cha.mydns.jp | Yes | ??? |
+| ❌ bsky.tochu-cha.mydns.jp | No | ??? |
 | ✅ cultured.black | No | 0.4.27 |
 | ✅ dawn.atproto.zigler.ai | No | 0.4.27 |
 | ✅ ds.povario.com | No | 0.4.12 |
-| ✅ fed.brid.gy | Yes | ??? |
+| ✅ fed.brid.gy | No | ??? |
 | ✅ is.lalafell.fun | No | 0.4.27 |
 | ✅ joost.social | No | 0.4.27 |
 | ✅ ketamine.dog | No | 0.4.27 |
@@ -39,9 +39,9 @@ part of mainnet.
 | ✅ pds.jaz.sh | No | 0.4.27 |
 | ✅ pds.vriska.dev | No | 0.4.27 |
 | ✅ reallyme.social | No | 0.4.27 |
-| ✅ rent-a-shitstorm.eu | No | 0.4.27 |
+| ❌ rent-a-shitstorm.eu | No | 0.4.27 |
 | ✅ sardine.pics | No | 0.4.27 |
-| ❌ siriussocial.de | Yes | 0.4.23 |
+| ❌ siriussocial.de | No | 0.4.23 |
 | ✅ sns.ham-san.net | No | 0.4.27 |
 | ✅ turboshitpost.ing | No | 0.4.27 |
 | ✅ x-mweya.duckdns.org | No | 0.4.27 |

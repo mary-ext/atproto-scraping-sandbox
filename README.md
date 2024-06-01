@@ -1,6 +1,6 @@
 # Scraped AT Protocol instances
 
-Last updated: 2024-05-30T00:57:31.645Z[^1]
+Last updated: 2024-06-01T01:01:04.901Z[^1]
 
 Found by enumerating plc.directory and bsky.network, some instances might not be
 part of mainnet.
@@ -15,7 +15,7 @@ part of mainnet.
 | ✅ b.schroedingerscat.org | No | 0.4.27 |
 | ✅ blacksky.app | No | 0.4.27 |
 | ✅ blsy.ddaodan.cn | No | 0.4.27 |
-| ✅ blue-archive.social | Yes | 0.4.27 |
+| ❌ blue-archive.social | Yes | 0.4.27 |
 | ✅ bluesky.euer.tv | No | 0.4.27 |
 | ✅ bluesky.kosti.dev | No | 0.4.27 |
 | ✅ bluesky.migennes.org | No | 0.4.27 |

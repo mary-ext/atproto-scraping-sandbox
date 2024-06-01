@@ -29,7 +29,8 @@
 		},
 		"https://blue-archive.social/": {
 			"version": "0.4.27",
-			"inviteCodeRequired": false
+			"inviteCodeRequired": false,
+			"errorAt": 1717203527903
 		},
 		"https://bluesky.euer.tv/": {
 			"version": "0.4.27",

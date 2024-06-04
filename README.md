@@ -1,6 +1,6 @@
 # Scraped AT Protocol instances
 
-Last updated: 2024-06-01T01:01:04.901Z[^1]
+Last updated: 2024-06-04T00:58:27.981Z[^1]
 
 Found by enumerating plc.directory and bsky.network, some instances might not be
 part of mainnet.
@@ -40,7 +40,7 @@ part of mainnet.
 | ✅ pds.vriska.dev | No | 0.4.27 |
 | ✅ reallyme.social | No | 0.4.27 |
 | ❌ rent-a-shitstorm.eu | No | 0.4.27 |
-| ✅ sardine.pics | No | 0.4.27 |
+| ❌ sardine.pics | No | 0.4.27 |
 | ❌ siriussocial.de | No | 0.4.23 |
 | ✅ sns.ham-san.net | No | 0.4.27 |
 | ✅ turboshitpost.ing | No | 0.4.27 |

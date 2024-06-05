@@ -30,7 +30,7 @@
 		"https://blue-archive.social/": {
 			"inviteCodeRequired": false,
 			"version": "0.4.27",
-			"errorAt": 1717462571399
+			"errorAt": 1717548954696
 		},
 		"https://bluesky.euer.tv/": {
 			"version": "0.4.27",
@@ -126,8 +126,8 @@
 			"errorAt": 1717030514426
 		},
 		"https://sardine.pics/": {
-			"version": "0.4.27",
 			"inviteCodeRequired": true,
+			"version": "0.4.27",
 			"errorAt": 1717462571399
 		},
 		"https://siriussocial.de/": {

@@ -1,6 +1,6 @@
 # Scraped AT Protocol instances
 
-Last updated: 2024-06-06T00:57:54.875Z[^1]
+Last updated: 2024-06-07T01:00:15.403Z[^1]
 
 Found by enumerating plc.directory and bsky.network, some instances might not be
 part of mainnet.
@@ -34,7 +34,7 @@ part of mainnet.
 | ✅ joost.social | No | 0.4.32 |
 | ✅ ketamine.dog | No | 0.4.32 |
 | ✅ labo.moe | No | 0.4.27 |
-| ✅ matthews-kennington.com | No | 0.4.27 |
+| ✅ matthews-kennington.com | No | 0.4.32 |
 | ✅ montpeyroux.social | No | 0.4.32 |
 | ✅ pds.jaz.sh | No | 0.4.32 |
 | ✅ pds.vriska.dev | No | 0.4.32 |

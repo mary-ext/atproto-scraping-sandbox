@@ -30,7 +30,7 @@
 		"https://blue-archive.social/": {
 			"inviteCodeRequired": false,
 			"version": "0.4.27",
-			"errorAt": 1717635338443
+			"errorAt": 1717721878583
 		},
 		"https://bluesky.euer.tv/": {
 			"version": "0.4.32",
@@ -101,7 +101,7 @@
 			"inviteCodeRequired": true
 		},
 		"https://matthews-kennington.com/": {
-			"version": "0.4.27",
+			"version": "0.4.32",
 			"inviteCodeRequired": true
 		},
 		"https://montpeyroux.social/": {

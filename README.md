@@ -1,6 +1,6 @@
 # Scraped AT Protocol instances
 
-Last updated: 2024-06-07T01:00:15.403Z[^1]
+Last updated: 2024-06-08T00:58:12.345Z[^1]
 
 Found by enumerating plc.directory and bsky.network, some instances might not be
 part of mainnet.
@@ -41,7 +41,6 @@ part of mainnet.
 | ✅ reallyme.social | No | 0.4.32 |
 | ❌ rent-a-shitstorm.eu | No | 0.4.27 |
 | ❌ sardine.pics | No | 0.4.27 |
-| ❌ siriussocial.de | No | 0.4.23 |
 | ✅ sns.ham-san.net | No | 0.4.32 |
 | ✅ turboshitpost.ing | No | 0.4.32 |
 | ✅ x-mweya.duckdns.org | No | 0.4.32 |

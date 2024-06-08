@@ -1,10 +1,10 @@
 {
 	"firehose": {
-		"cursor": "576",
+		"cursor": "577",
 		"didWebs": {}
 	},
 	"plc": {
-		"cursor": "2024-05-30T14:04:01.497Z"
+		"cursor": "2024-06-07T17:40:15.972Z"
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
@@ -30,7 +30,7 @@
 		"https://blue-archive.social/": {
 			"inviteCodeRequired": false,
 			"version": "0.4.27",
-			"errorAt": 1717721878583
+			"errorAt": 1717808154973
 		},
 		"https://bluesky.euer.tv/": {
 			"version": "0.4.32",
@@ -129,10 +129,6 @@
 			"inviteCodeRequired": true,
 			"version": "0.4.27",
 			"errorAt": 1717462571399
-		},
-		"https://siriussocial.de/": {
-			"version": "0.4.23",
-			"errorAt": 1716512091590
 		},
 		"https://sns.ham-san.net/": {
 			"version": "0.4.32",

@@ -1,10 +1,10 @@
 {
 	"firehose": {
-		"cursor": "577",
+		"cursor": "580",
 		"didWebs": {}
 	},
 	"plc": {
-		"cursor": "2024-06-07T17:40:15.972Z"
+		"cursor": "2024-06-09T19:18:14.757Z"
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
@@ -105,6 +105,10 @@
 			"inviteCodeRequired": true
 		},
 		"https://montpeyroux.social/": {
+			"version": "0.4.32",
+			"inviteCodeRequired": true
+		},
+		"https://nottyboi.me/": {
 			"version": "0.4.32",
 			"inviteCodeRequired": true
 		},

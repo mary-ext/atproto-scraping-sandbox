@@ -1,6 +1,6 @@
 # Scraped AT Protocol instances
 
-Last updated: 2024-06-10T01:00:27.664Z[^1]
+Last updated: 2024-06-11T00:59:14.572Z[^1]
 
 Found by enumerating plc.directory and bsky.network, some instances might not be
 part of mainnet.
@@ -22,7 +22,6 @@ part of mainnet.
 | ✅ blugrisbi.es | No | 0.4.32 |
 | ✅ bs.jefferyho.cc | No | 0.4.32 |
 | ✅ bs.miichelle.moe | No | 0.4.32 |
-| ❌ bsky.akurosia.de | No | 0.4.0-beta.7 |
 | ✅ bsky.deiru.online | No | 0.4.32 |
 | ✅ bsky.primeapps.net | No | 0.4.32 |
 | ❌ bsky.tochu-cha.mydns.jp | No | ??? |
@@ -33,7 +32,7 @@ part of mainnet.
 | ✅ is.lalafell.fun | No | 0.4.32 |
 | ✅ joost.social | No | 0.4.32 |
 | ✅ ketamine.dog | No | 0.4.32 |
-| ✅ labo.moe | No | 0.4.27 |
+| ✅ labo.moe | No | 0.4.32 |
 | ✅ matthews-kennington.com | No | 0.4.32 |
 | ✅ montpeyroux.social | No | 0.4.32 |
 | ✅ nottyboi.me | No | 0.4.32 |
@@ -44,6 +43,7 @@ part of mainnet.
 | ❌ sardine.pics | No | 0.4.27 |
 | ✅ sns.ham-san.net | No | 0.4.32 |
 | ✅ turboshitpost.ing | No | 0.4.32 |
+| ❌ wave.stg.waverly.social | No | ??? |
 | ✅ x-mweya.duckdns.org | No | 0.4.32 |
 <!-- pds-end -->
 

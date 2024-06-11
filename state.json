@@ -4,7 +4,7 @@
 		"didWebs": {}
 	},
 	"plc": {
-		"cursor": "2024-06-09T19:18:14.757Z"
+		"cursor": "2024-06-10T14:15:54.044Z"
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
@@ -56,10 +56,6 @@
 			"version": "0.4.32",
 			"inviteCodeRequired": true
 		},
-		"https://bsky.akurosia.de/": {
-			"version": "0.4.0-beta.7",
-			"errorAt": 1716685134415
-		},
 		"https://bsky.deiru.online/": {
 			"version": "0.4.32",
 			"inviteCodeRequired": true
@@ -97,7 +93,7 @@
 			"inviteCodeRequired": true
 		},
 		"https://labo.moe/": {
-			"version": "0.4.27",
+			"version": "0.4.32",
 			"inviteCodeRequired": true
 		},
 		"https://matthews-kennington.com/": {
@@ -141,6 +137,9 @@
 		"https://turboshitpost.ing/": {
 			"version": "0.4.32",
 			"inviteCodeRequired": true
+		},
+		"https://wave.stg.waverly.social/": {
+			"errorAt": 1718067417518
 		},
 		"https://x-mweya.duckdns.org/": {
 			"version": "0.4.32",

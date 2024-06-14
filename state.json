@@ -4,7 +4,7 @@
 		"didWebs": {}
 	},
 	"plc": {
-		"cursor": "2024-06-10T14:15:54.044Z"
+		"cursor": "2024-06-13T03:46:01.531Z"
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
@@ -120,11 +120,6 @@
 			"version": "0.4.32",
 			"inviteCodeRequired": true
 		},
-		"https://rent-a-shitstorm.eu/": {
-			"inviteCodeRequired": true,
-			"version": "0.4.27",
-			"errorAt": 1717030514426
-		},
 		"https://sardine.pics/": {
 			"inviteCodeRequired": true,
 			"version": "0.4.27",
@@ -139,7 +134,7 @@
 			"inviteCodeRequired": true
 		},
 		"https://wave.stg.waverly.social/": {
-			"errorAt": 1718240181717
+			"errorAt": 1718326591785
 		},
 		"https://x-mweya.duckdns.org/": {
 			"version": "0.4.32",

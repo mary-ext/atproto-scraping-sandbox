@@ -17,7 +17,8 @@
 		},
 		"https://b.schroedingerscat.org/": {
 			"version": "0.4.32",
-			"inviteCodeRequired": true
+			"inviteCodeRequired": true,
+			"errorAt": 1718412993953
 		},
 		"https://blacksky.app/": {
 			"version": "0.4.32",
@@ -63,9 +64,6 @@
 		"https://bsky.primeapps.net/": {
 			"version": "0.4.32",
 			"inviteCodeRequired": true
-		},
-		"https://bsky.tochu-cha.mydns.jp/": {
-			"errorAt": 1717116963103
 		},
 		"https://cultured.black/": {
 			"version": "0.4.32",

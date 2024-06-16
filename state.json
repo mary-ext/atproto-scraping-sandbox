@@ -16,8 +16,8 @@
 			"inviteCodeRequired": true
 		},
 		"https://b.schroedingerscat.org/": {
-			"version": "0.4.32",
 			"inviteCodeRequired": true,
+			"version": "0.4.32",
 			"errorAt": 1718412993953
 		},
 		"https://blacksky.app/": {

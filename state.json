@@ -4,7 +4,7 @@
 		"didWebs": {}
 	},
 	"plc": {
-		"cursor": "2024-06-18T00:15:49.149Z"
+		"cursor": "2024-06-18T05:23:14.850Z"
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
@@ -105,7 +105,8 @@
 		},
 		"https://nottyboi.me/": {
 			"version": "0.4.32",
-			"inviteCodeRequired": true
+			"inviteCodeRequired": true,
+			"errorAt": 1718758633251
 		},
 		"https://pds.jaz.sh/": {
 			"version": "0.4.32",
@@ -118,11 +119,6 @@
 		"https://reallyme.social/": {
 			"version": "0.4.32",
 			"inviteCodeRequired": true
-		},
-		"https://sardine.pics/": {
-			"inviteCodeRequired": true,
-			"version": "0.4.27",
-			"errorAt": 1717462571399
 		},
 		"https://sns.ham-san.net/": {
 			"version": "0.4.32",

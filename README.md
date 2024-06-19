@@ -1,6 +1,6 @@
 # Scraped AT Protocol instances
 
-Last updated: 2024-06-17T01:00:53.336Z[^1]
+Last updated: 2024-06-19T00:59:29.607Z[^1]
 
 Found by enumerating plc.directory and bsky.network, some instances might not be
 part of mainnet.
@@ -34,11 +34,10 @@ part of mainnet.
 | ✅ labo.moe | No | 0.4.32 |
 | ✅ matthews-kennington.com | No | 0.4.32 |
 | ✅ montpeyroux.social | No | 0.4.32 |
-| ✅ nottyboi.me | No | 0.4.32 |
+| ❌ nottyboi.me | No | 0.4.32 |
 | ✅ pds.jaz.sh | No | 0.4.32 |
 | ✅ pds.vriska.dev | No | 0.4.32 |
 | ✅ reallyme.social | No | 0.4.32 |
-| ❌ sardine.pics | No | 0.4.27 |
 | ✅ sns.ham-san.net | No | 0.4.32 |
 | ✅ turboshitpost.ing | No | 0.4.32 |
 | ❌ wave.stg.waverly.social | No | ??? |

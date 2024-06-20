@@ -4,7 +4,7 @@
 		"didWebs": {}
 	},
 	"plc": {
-		"cursor": "2024-06-18T05:23:14.850Z"
+		"cursor": "2024-06-19T04:22:28.493Z"
 	},
 	"pdses": {
 		"https://aozora.yockow.jp/": {
@@ -104,8 +104,8 @@
 			"inviteCodeRequired": true
 		},
 		"https://nottyboi.me/": {
-			"version": "0.4.32",
 			"inviteCodeRequired": true,
+			"version": "0.4.32",
 			"errorAt": 1718758633251
 		},
 		"https://pds.jaz.sh/": {

@@ -133,7 +133,8 @@
 		},
 		"https://x-mweya.duckdns.org/": {
 			"version": "0.4.32",
-			"inviteCodeRequired": true
+			"inviteCodeRequired": true,
+			"errorAt": 1719017743214
 		}
 	},
 	"labelers": {}

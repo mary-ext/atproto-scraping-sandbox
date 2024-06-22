@@ -1,6 +1,6 @@
 # Scraped AT Protocol instances
 
-Last updated: 2024-06-19T00:59:29.607Z[^1]
+Last updated: 2024-06-22T00:57:57.442Z[^1]
 
 Found by enumerating plc.directory and bsky.network, some instances might not be
 part of mainnet.
@@ -41,7 +41,7 @@ part of mainnet.
 | ✅ sns.ham-san.net | No | 0.4.32 |
 | ✅ turboshitpost.ing | No | 0.4.32 |
 | ❌ wave.stg.waverly.social | No | ??? |
-| ✅ x-mweya.duckdns.org | No | 0.4.32 |
+| ❌ x-mweya.duckdns.org | No | 0.4.32 |
 <!-- pds-end -->
 
 ## Labelers

@@ -28,11 +28,6 @@
 			"version": "0.4.32",
 			"inviteCodeRequired": true
 		},
-		"https://blue-archive.social/": {
-			"inviteCodeRequired": false,
-			"version": "0.4.27",
-			"errorAt": 1717808154973
-		},
 		"https://bluesky.euer.tv/": {
 			"inviteCodeRequired": true,
 			"version": "0.4.32",
@@ -132,9 +127,8 @@
 			"errorAt": 1718326591785
 		},
 		"https://x-mweya.duckdns.org/": {
-			"version": "0.4.32",
 			"inviteCodeRequired": true,
-			"errorAt": 1719017743214
+			"version": "0.4.32"
 		}
 	},
 	"labelers": {}
